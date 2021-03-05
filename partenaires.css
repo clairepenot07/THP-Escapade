@@ -1,0 +1,111 @@
+/* Bandeau page
+------------------------- */
+
+.jumbotron 
+{
+
+ height: auto;
+  background-image: url("fermier1.jpeg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items : center;
+  text-align: center; 
+}
+
+/* Structure page
+------------------------- */
+
+.lead
+{display: flex;justify-content: center;
+margin : 50px;}
+
+h2
+{
+  margin : 50px;
+}
+
+.partenaires 
+{
+  margin : 50px;
+}
+
+
+/* Bouton
+------------------------- */
+.btn-outline-light
+{
+  background-color:#FF9100;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px #F2F2F2 solid;
+  margin: 50px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.titre {
+  letter-spacing: -.05rem;
+}
+
+
+
+/* PARTIE TEMOIGNAGE
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+h3 {
+  font-weight: 400;
+}
+
+
+
+/* Footer
+------------------------- */
+
+.footer
+#search
+  {
+  display: flex;
+  }
+#search
+input 
+  { font-size: 9px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px #F2F2F2 solid;
+  }
+
+input:focus 
+  {
+  box-shadow: 1px 1px 1px grey;
+  color : #FF9100;
+  border: 1px #FF9100 solid;
+  }
+
+.col-5
+{
+  background-color: #FF9100;
+ 
+}
+
+.col-4
+{
+  background-color:#DBDBDB;
+ 
+}
+
+.col-3
+{
+  background-color:#DBDBDB;
+}
